@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Student</title>
+	<style type="text/css">
+		input {
+			width: 100% ;
+			height: 30px ; 
+		}
+		#boxWithShadow {
+			width: 700px ;
+			background-color:teal ;
+			box-shadow: 5px 10px #888888 ;
+		}
+	</style>
+</head>
+<body>
+
+<center><div id="boxWithShadow">
+	<h1>Register as a Student</h1>
+	<h5>Enter following details correctly</h5>
+	<form action="studentregister.php" method="POST">
+	<table border="1" cellpadding="5" cellspacing="5">
+		
+		<tr>
+			<td>Roll Number</td>
+			<td><input type="text" name="RollNumber"></td>
+		</tr>
+		<tr>
+			<td>Student Name</td>
+			<td><input type="text" name="StudentName"></td>
+		</tr>
+		<tr>
+			<td>Email Address</td>
+			<td><input type="text" name="Email"></td>
+		</tr>
+		<tr>
+		
+			<td>College</td>
+			<td>	<select name="college">
+					<option value="IIPS">IIPS</option>
+					<option value="IMS">IMS</option>
+					<option value="IET">IET</option>
+					</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Course</td>
+			<td>	<select name="course">
+					<option value="MCA">MCA</option>
+					<option value="MTECH">MTECH</option>
+					<option value="MBA">MBA</option>
+					<option value="BCOM">B.Com</option>
+					</select>
+			</td>
+		</tr>
+		<tr>
+		<td>Semester</td>
+			<td>	<select name="sem">
+					<option value="1">First</option>
+					<option value="2">Second</option>
+					<option value="3">Third</option>
+					<option value="4">Fourth</option>
+					<option value="5">Fifth</option>
+					<option value="6">Sixth</option>
+					<option value="7">Seventh</option>
+					<option value="8">Eightth</option>
+					<option value="9">Ninth</option>
+					<option value="10">Tenth</option>
+					<option value="11">Eleventh</option>
+					<option value="12">Twelth</option>
+					</select>
+			</td>
+		</tr><tr>
+		      <td> Password</td>
+		      <td> <input type="password" name="password" id="Password"></td>
+		  </tr>
+		<tr>
+			<center><td colspan="2"><center><input type="submit" name="submitButton" value="Register"></td></center>
+		</tr>
+	</table>
+	</form>
+</div>
+</center>
+
+</body>
+</html>

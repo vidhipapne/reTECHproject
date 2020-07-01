@@ -1,2 +1,2 @@
 # reTECHproject
-it is a student teacher online portal system
+It is a student teacher online portal system
